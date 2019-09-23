@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form to fill</title>
+</head>
+
+<body>
+    <form action="save.php" method="get">
+        <label for="id_name">Name:</label>
+        <input type="text" name="Name" id="id_name">
+
+        <h4>Age</h4>
+        <p><input type="radio" name="Age" value="18" checked="checked">18</p>
+        <p><input type="radio" name="Age" value="19-35" checked="checked">19-35</p>
+        <p><input type="radio" name="Age" value="36-48" checked="checked">36-48</p>
+        <p><input type="radio" name="Age" value=">48" checked="checked">>48</p>
+
+        <label for="id_profession">Profession:</label>
+        <input type="text" name="Profession" id="id_profession">
+
+        <h4>Country</h4>
+        <select name="Country">
+            <option value="Portugal">Portugal</option>
+            <option value="Germany">Germany</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select>
+
+        <h4>Interests</h4>
+        <input type="checkbox" name="Gymnastics" value="Gymnastics">Gymnastics
+        <input type="checkbox" name="Tennis" value="Tennis">Tennis
+        <input type="checkbox" name="Read" value="Read">Read
+        <input type="checkbox" name="Sleep" value="Sleep">Sleep
+
+        <h4>How did you find about this website?</h4>
+        <textarea name="FoundSite" rows="4" cols="50"></textarea>
+
+        <p></p>
+        <input type="submit" value="Send">
+        
+    </form>
+</body>
+
+</html>
