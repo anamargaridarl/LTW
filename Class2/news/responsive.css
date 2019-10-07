@@ -1,0 +1,169 @@
+
+html {
+    background-color: tan;
+
+  }
+
+  @media (max-width: 60em) {
+    
+    html{
+    background-color: green;
+
+    }
+    #related{
+        display:none
+    }
+
+    body {
+        width: 60em;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header"
+            "menu "
+            "main "
+            "footer ";
+    }
+    
+    #menu {
+        grid-area: menu;
+        width:80em
+    }
+    
+    #menu ul li {
+        flex-grow: 3;
+    }
+
+    #menu ul {
+        min-width:60em
+    }
+    
+    #news {
+        grid-area: main;
+    }
+    
+    body > footer {
+        grid-area: footer;
+    }
+    
+    body > header {
+        grid-area: header;
+        position: relative;
+    }
+     
+    body > footer{
+        margin-right:0;
+    }
+
+    #news article {
+        margin-right:0;
+    }
+  }
+  
+  @media (max-width: 40em) {
+    html {
+      background-color: white;
+    }
+
+    #related{
+        display: none;
+    }
+
+    body {
+        width: 60em;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header"
+            "menu "
+            "main "
+            "footer ";
+    }
+    
+    #menu {
+        grid-area: menu;
+        width:80em;
+        height:3em;
+        background-color:grey
+    }
+    
+    #menu input{
+        display: block;
+    }
+       
+    #menu input {
+        height: 2em;
+        width: 2em;
+    }
+    
+     #menu label {
+        height: 25px;
+        width: 25px;
+        background-color: blue;
+        display: block;
+        text-align:center
+
+    }
+    
+    }
+    #menu ul li {
+        flex-grow: 3;
+    }
+
+    #menu ul {
+        min-width:60em;
+        display:none
+    }
+    
+    #news {
+        grid-area: main;
+    }
+    
+    body > footer {
+        grid-area: footer;
+    }
+    
+    body > header {
+        grid-area: header;
+        position: relative;
+    }
+
+    body > footer{
+        margin-right:0;
+    }
+
+    #news article {
+        margin-right:0;
+    }
+
+    #news article {
+        position: static;
+        margin-top:1em;
+        margin-right:1em;
+    }
+    
+    #news article header h1 a{
+        color:black;
+
+    }
+
+    #news article header h1 {
+       margin: 0 0 0 0;
+    }
+
+    #news article header{
+        width:40em;
+        position: static; 
+        text-shadow: none;
+        top: 0; 
+        left: 0; 
+        padding: 0.5em 0.5em 0.5em 0.5em
+    
+    }
+
+
+  }

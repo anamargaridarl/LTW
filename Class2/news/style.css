@@ -51,7 +51,8 @@ header div a:nth-child(2){
     padding-left: 1em
 }
 #menu{
-    width:30em
+    background-color:white;
+    width:50em
 }
 #menu input, #menu label{display:none}
 #menu ul {
@@ -125,6 +126,8 @@ footer p {
 
 #news article {
     position: relative;
+    margin-top:1em;
+    margin-right:1em;
 }
 
 #news article header{
@@ -133,5 +136,19 @@ footer p {
     position: absolute; 
     top: 0; 
     left: 0; 
+
 }
 
+#news article p{
+    padding:0.5em 0.5em 0.5em 0.5em
+
+}
+
+
+#news article{
+    background-color:white;
+}
+
+body > footer{
+    margin-right:1em;
+}
