@@ -1,0 +1,5 @@
+Solutions at https://drive.google.com/drive/folders/1KmZ8mSUrLNq0L_fLk6VEtko8bu46SC_z
+
+
+Notes:
+9. call would execute the function in the moment
